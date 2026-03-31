@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "tours": "Tours",
+    "about": "Nosotros",
+    "gallery": "Galería",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "cart": "Carrito",
+    "book": "Reservar"
+  },
+  "hero": {
+    "title": "Descubre Sevilla a través de sus sabores",
+    "subtitle": "Tours gastronómicos únicos que te conectan con la auténtica cultura culinaria de Andalucía",
+    "cta": "Explorar Tours",
+    "secondary": "Conocer más"
+  },
+  "home": {
+    "aboutTitle": "Sobre Golden Bite",
+    "aboutText": "Somos apasionados de la gastronomía sevillana y queremos compartir contigo los secretos culinarios que hacen de nuestra ciudad un destino único. Cada tour es una aventura sensorial cuidadosamente diseñada.",
+    "featuredTitle": "Tours Destacados",
+    "featuredSubtitle": "Experiencias gastronómicas que te conectarán con la esencia de Sevilla",
+    "testimonialsTitle": "Lo que dicen nuestros viajeros",
+    "testimonialsSubtitle": "Más de 500 experiencias inolvidables compartidas",
+    "ctaTitle": "¿Listo para tu aventura gastronómica?",
+    "ctaText": "Reserva ahora y descubre por qué somos el tour gastronómico mejor valorado de Sevilla",
+    "ctaButton": "Ver todos los tours"
+  },
+  "tours": {
+    "title": "Nuestros Tours",
+    "subtitle": "Experiencias gastronómicas diseñadas para todos los paladares",
+    "filterAll": "Todos",
+    "filterMorning": "Mañana",
+    "filterEvening": "Noche",
+    "duration": "Duración",
+    "maxGroup": "Máx. grupo",
+    "people": "personas",
+    "person": "persona",
+    "from": "Desde",
+    "viewDetails": "Ver detalles",
+    "addToCart": "Añadir al carrito",
+    "includes": "Incluye",
+    "itinerary": "Itinerario",
+    "reviews": "reseñas",
+    "selectDate": "Seleccionar fecha",
+    "selectParticipants": "Participantes",
+    "bookNow": "Reservar ahora"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Pasión por la gastronomía sevillana desde 2015",
+    "story": "Nuestra Historia",
+    "storyText1": "Golden Bite nació de un sueño: compartir la riqueza gastronómica de Sevilla con el mundo. Fundada por María y Antonio, dos sevillanos apasionados por su tierra, nuestra empresa comenzó como un pequeño proyecto familiar.",
+    "storyText2": "Hoy, después de más de 8 años y miles de viajeros satisfechos, seguimos manteniendo la misma filosofía: ofrecer experiencias auténticas, alejadas del turismo masivo, que conecten a nuestros visitantes con la verdadera esencia de la cocina andaluza.",
+    "mission": "Nuestra Misión",
+    "missionText": "Crear experiencias gastronómicas memorables que celebren la rica tradición culinaria de Sevilla, apoyando a productores locales y preservando recetas centenarias.",
+    "values": "Nuestros Valores",
+    "value1Title": "Autenticidad",
+    "value1Text": "Solo visitamos lugares que frecuentan los sevillanos, lejos de las rutas turísticas convencionales.",
+    "value2Title": "Calidad",
+    "value2Text": "Trabajamos con productores locales y establecimientos que comparten nuestra pasión por la excelencia.",
+    "value3Title": "Sostenibilidad",
+    "value3Text": "Apoyamos la economía local y promovemos prácticas gastronómicas responsables.",
+    "team": "Nuestro Equipo",
+    "teamSubtitle": "Guías locales apasionados por compartir su cultura"
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Momentos capturados de nuestras experiencias gastronómicas"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Historias, recetas y secretos de la gastronomía sevillana",
+    "readMore": "Leer más",
+    "categories": "Categorías",
+    "recent": "Artículos recientes"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes preguntas? Estamos aquí para ayudarte",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono (opcional)",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderemos pronto.",
+      "error": "Error al enviar. Por favor, inténtalo de nuevo."
+    },
+    "info": {
+      "title": "Información de contacto",
+      "address": "Calle Sierpes 45, 41004 Sevilla",
+      "phone": "+34 954 123 456",
+      "email": "hola@goldenbite.es",
+      "hours": "Lun - Dom: 9:00 - 21:00"
+    }
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "empty": "Tu carrito está vacío",
+    "emptyText": "Explora nuestros tours y añade tus experiencias favoritas",
+    "exploreTours": "Explorar tours",
+    "item": "artículo",
+    "items": "artículos",
+    "date": "Fecha",
+    "participants": "Participantes",
+    "remove": "Eliminar",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Proceder al pago",
+    "continueShopping": "Seguir comprando"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Completa tu reserva",
+    "personalInfo": "Información personal",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "specialRequests": "Peticiones especiales",
+    "specialRequestsPlaceholder": "Alergias, restricciones dietéticas, celebraciones...",
+    "paymentInfo": "Información de pago",
+    "cardNumber": "Número de tarjeta",
+    "expiry": "Fecha de expiración",
+    "cvv": "CVV",
+    "orderSummary": "Resumen del pedido",
+    "confirmPayment": "Confirmar y pagar",
+    "processing": "Procesando...",
+    "secure": "Pago 100% seguro",
+    "terms": "Al completar esta reserva, aceptas nuestros términos y condiciones."
+  },
+  "confirmation": {
+    "title": "¡Reserva confirmada!",
+    "subtitle": "Gracias por elegir Golden Bite Sevilla",
+    "orderNumber": "Número de reserva",
+    "emailSent": "Hemos enviado los detalles de tu reserva a",
+    "whatNext": "¿Qué sigue?",
+    "step1": "Recibirás un email de confirmación con todos los detalles",
+    "step2": "24 horas antes del tour, te enviaremos un recordatorio",
+    "step3": "Llega al punto de encuentro 10 minutos antes",
+    "backHome": "Volver al inicio"
+  },
+  "footer": {
+    "description": "Tours gastronómicos únicos que te conectan con la auténtica cultura culinaria de Sevilla.",
+    "quickLinks": "Enlaces rápidos",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "newsletter": "Newsletter",
+    "newsletterText": "Suscríbete para recibir ofertas exclusivas",
+    "subscribe": "Suscribirse",
+    "emailPlaceholder": "Tu email",
+    "rights": "Todos los derechos reservados"
+  },
+  "showcase": {
+    "title": "ÉCLAIR",
+    "subtitle": "MODEL SHOWCASE",
+    "back": "← Volver",
+    "hint": "Arrastra para rotar · Scroll para zoom · Click derecho para mover"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "seeAll": "Ver todos"
+  }
+}

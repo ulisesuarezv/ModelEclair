@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Cart",
+    "book": "Book Now"
+  },
+  "hero": {
+    "title": "Discover Seville through its flavors",
+    "subtitle": "Unique gastronomic tours that connect you with the authentic culinary culture of Andalusia",
+    "cta": "Explore Tours",
+    "secondary": "Learn More"
+  },
+  "home": {
+    "aboutTitle": "About Golden Bite",
+    "aboutText": "We are passionate about Sevillian gastronomy and want to share with you the culinary secrets that make our city a unique destination. Each tour is a carefully designed sensory adventure.",
+    "featuredTitle": "Featured Tours",
+    "featuredSubtitle": "Gastronomic experiences that will connect you with the essence of Seville",
+    "testimonialsTitle": "What our travelers say",
+    "testimonialsSubtitle": "Over 500 unforgettable experiences shared",
+    "ctaTitle": "Ready for your gastronomic adventure?",
+    "ctaText": "Book now and discover why we are the highest-rated food tour in Seville",
+    "ctaButton": "View all tours"
+  },
+  "tours": {
+    "title": "Our Tours",
+    "subtitle": "Gastronomic experiences designed for all palates",
+    "filterAll": "All",
+    "filterMorning": "Morning",
+    "filterEvening": "Evening",
+    "duration": "Duration",
+    "maxGroup": "Max. group",
+    "people": "people",
+    "person": "person",
+    "from": "From",
+    "viewDetails": "View details",
+    "addToCart": "Add to cart",
+    "includes": "Includes",
+    "itinerary": "Itinerary",
+    "reviews": "reviews",
+    "selectDate": "Select date",
+    "selectParticipants": "Participants",
+    "bookNow": "Book now"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Passion for Sevillian gastronomy since 2015",
+    "story": "Our Story",
+    "storyText1": "Golden Bite was born from a dream: to share the gastronomic richness of Seville with the world. Founded by María and Antonio, two Sevillians passionate about their land, our company started as a small family project.",
+    "storyText2": "Today, after more than 8 years and thousands of satisfied travelers, we continue to maintain the same philosophy: offering authentic experiences, away from mass tourism, that connect our visitors with the true essence of Andalusian cuisine.",
+    "mission": "Our Mission",
+    "missionText": "To create memorable gastronomic experiences that celebrate the rich culinary tradition of Seville, supporting local producers and preserving century-old recipes.",
+    "values": "Our Values",
+    "value1Title": "Authenticity",
+    "value1Text": "We only visit places frequented by Sevillians, away from conventional tourist routes.",
+    "value2Title": "Quality",
+    "value2Text": "We work with local producers and establishments that share our passion for excellence.",
+    "value3Title": "Sustainability",
+    "value3Text": "We support the local economy and promote responsible gastronomic practices.",
+    "team": "Our Team",
+    "teamSubtitle": "Local guides passionate about sharing their culture"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Captured moments from our gastronomic experiences"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Stories, recipes, and secrets of Sevillian gastronomy",
+    "readMore": "Read more",
+    "categories": "Categories",
+    "recent": "Recent articles"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have questions? We're here to help",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "Error sending. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Calle Sierpes 45, 41004 Seville",
+      "phone": "+34 954 123 456",
+      "email": "hola@goldenbite.es",
+      "hours": "Mon - Sun: 9:00 AM - 9:00 PM"
+    }
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "emptyText": "Explore our tours and add your favorite experiences",
+    "exploreTours": "Explore tours",
+    "item": "item",
+    "items": "items",
+    "date": "Date",
+    "participants": "Participants",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Proceed to checkout",
+    "continueShopping": "Continue shopping"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Complete your booking",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "specialRequests": "Special Requests",
+    "specialRequestsPlaceholder": "Allergies, dietary restrictions, celebrations...",
+    "paymentInfo": "Payment Information",
+    "cardNumber": "Card Number",
+    "expiry": "Expiry Date",
+    "cvv": "CVV",
+    "orderSummary": "Order Summary",
+    "confirmPayment": "Confirm and Pay",
+    "processing": "Processing...",
+    "secure": "100% Secure Payment",
+    "terms": "By completing this booking, you agree to our terms and conditions."
+  },
+  "confirmation": {
+    "title": "Booking Confirmed!",
+    "subtitle": "Thank you for choosing Golden Bite Seville",
+    "orderNumber": "Booking Number",
+    "emailSent": "We have sent your booking details to",
+    "whatNext": "What's next?",
+    "step1": "You will receive a confirmation email with all the details",
+    "step2": "24 hours before the tour, we will send you a reminder",
+    "step3": "Arrive at the meeting point 10 minutes early",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "description": "Unique gastronomic tours that connect you with the authentic culinary culture of Seville.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe to receive exclusive offers",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Your email",
+    "rights": "All rights reserved"
+  },
+  "showcase": {
+    "title": "ÉCLAIR",
+    "subtitle": "MODEL SHOWCASE",
+    "back": "← Back",
+    "hint": "Drag to rotate · Scroll to zoom · Right-click to pan"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "seeAll": "See all"
+  }
+}

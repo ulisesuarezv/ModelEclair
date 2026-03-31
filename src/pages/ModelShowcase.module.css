@@ -1,0 +1,207 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background: #0A0A0A;
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Left panel — title + metrics */
+.sidebar {
+  padding: 80px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  z-index: 1;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 900;
+  font-size: clamp(64px, 10vw, 140px);
+  line-height: 0.85;
+  color: #f0f0f0;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #555;
+  margin: 0;
+}
+
+.divider {
+  width: 40px;
+  height: 1px;
+  background: #333;
+}
+
+/* Metrics */
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.metricRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.metricRow:last-child {
+  border-bottom: none;
+}
+
+.metricLabel {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.metricValue {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #ccc;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Canvas area */
+.canvasArea {
+  position: relative;
+  overflow: hidden;
+}
+
+.canvasWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Debug panel — right side */
+.debugPanel {
+  padding: 80px 16px 40px;
+  overflow-y: auto;
+  border-left: 1px solid #1a1a1a;
+}
+
+/* lil-gui dark theme overrides */
+.debugPanel :global(.lil-gui) {
+  --background-color: #0A0A0A;
+  --widget-color: #1a1a1a;
+  --number-color: #ccc;
+  --string-color: #ccc;
+  --text-color: #999;
+  --title-background-color: #111;
+  --title-text-color: #ccc;
+  --focus-color: #333;
+  --font-family: 'Inter', sans-serif;
+  --font-size: 11px;
+  border: none !important;
+}
+
+.debugPanel :global(.lil-gui .title) {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* Bottom bar — controls + hint */
+.bottomBar {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 20px 40px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.hint {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #444;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .debugPanel {
+    display: none;
+  }
+
+  .sidebar {
+    padding: 60px 24px 24px;
+    gap: 24px;
+  }
+
+  .title {
+    font-size: clamp(48px, 15vw, 80px);
+  }
+
+  .metrics {
+    flex-direction: row;
+    gap: 0;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .metricRow {
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 16px;
+    border-bottom: none;
+    border-right: 1px solid #1a1a1a;
+    min-width: max-content;
+  }
+
+  .metricRow:last-child {
+    border-right: none;
+  }
+
+  .canvasArea {
+    min-height: 50vh;
+  }
+
+  .bottomBar {
+    padding: 16px 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0A0A0A;
+    border-top: 1px solid #1a1a1a;
+    z-index: 10;
+  }
+
+}
