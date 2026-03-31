@@ -41,14 +41,14 @@
   font-size: 11px;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: #555;
+  color: #888;
   margin: 0;
 }
 
 .divider {
   width: 40px;
   height: 1px;
-  background: #333;
+  background: #555;
 }
 
 /* Metrics */
@@ -63,7 +63,7 @@
   align-items: baseline;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 .metricRow:last-child {
@@ -72,18 +72,18 @@
 
 .metricLabel {
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #555;
+  color: #888;
 }
 
 .metricValue {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  color: #ccc;
+  color: #e0e0e0;
   font-variant-numeric: tabular-nums;
 }
 
@@ -102,19 +102,19 @@
 .debugPanel {
   padding: 80px 16px 40px;
   overflow-y: auto;
-  border-left: 1px solid #1a1a1a;
+  border-left: 1px solid #2a2a2a;
 }
 
 /* lil-gui dark theme overrides */
 .debugPanel :global(.lil-gui) {
   --background-color: #0A0A0A;
-  --widget-color: #1a1a1a;
-  --number-color: #ccc;
-  --string-color: #ccc;
-  --text-color: #999;
-  --title-background-color: #111;
-  --title-text-color: #ccc;
-  --focus-color: #333;
+  --widget-color: #2a2a2a;
+  --number-color: #e0e0e0;
+  --string-color: #e0e0e0;
+  --text-color: #bbb;
+  --title-background-color: #1a1a1a;
+  --title-text-color: #e0e0e0;
+  --focus-color: #444;
   --font-family: 'Inter', sans-serif;
   --font-size: 11px;
   border: none !important;
@@ -142,7 +142,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 10px;
-  color: #444;
+  color: #888;
   letter-spacing: 0.05em;
 }
 

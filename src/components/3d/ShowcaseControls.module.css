@@ -11,9 +11,9 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  border: 1px solid #333;
+  border: 1px solid #444;
   border-radius: 0;
-  color: #777;
+  color: #aaa;
   cursor: pointer;
   transition: all 150ms ease;
 }
